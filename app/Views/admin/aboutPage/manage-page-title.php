@@ -272,7 +272,7 @@
                                 <div class="card-body py-4">
                                     <!--begin::Table-->
                                     <div id="kt_table_users_wrapper" class="dataTables_wrapper dt-bootstrap4 no-footer">
-                                        <div class="table-responsive">
+                                        <div class="table-responsive d-none">
                                             <table class="table align-middle table-row-dashed fs-6 gy-5 dataTable no-footer" id="kt_table_users">
                                                 <!--begin::Table head-->
                                                 <thead>
@@ -367,21 +367,21 @@
                                                         </td>
                                                         <!--end::Checkbox-->
                                                         <!--begin::User=-->
-                                                    
-                                                            <!--begin::Menu-->
-                                                            <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
-                                                                <!--begin::Menu item-->
-                                                                <div class="menu-item px-3">
-                                                                    <a href="../../demo1/dist/apps/user-management/users/view.html" class="menu-link px-3">Edit</a>
-                                                                </div>
-                                                                <!--end::Menu item-->
-                                                                <!--begin::Menu item-->
-                                                                <div class="menu-item px-3">
-                                                                    <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Delete</a>
-                                                                </div>
-                                                                <!--end::Menu item-->
+
+                                                        <!--begin::Menu-->
+                                                        <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4" data-kt-menu="true">
+                                                            <!--begin::Menu item-->
+                                                            <div class="menu-item px-3">
+                                                                <a href="../../demo1/dist/apps/user-management/users/view.html" class="menu-link px-3">Edit</a>
                                                             </div>
-                                                            <!--end::Menu-->
+                                                            <!--end::Menu item-->
+                                                            <!--begin::Menu item-->
+                                                            <div class="menu-item px-3">
+                                                                <a href="#" class="menu-link px-3" data-kt-users-table-filter="delete_row">Delete</a>
+                                                            </div>
+                                                            <!--end::Menu item-->
+                                                        </div>
+                                                        <!--end::Menu-->
                                                         </td>
                                                         <!--end::Action=-->
                                                     </tr>
@@ -389,7 +389,7 @@
                                                 <!--end::Table body-->
                                             </table>
                                         </div>
-                                        <div class="row">
+                                        <div class="row d-none">
                                             <div class="col-sm-12 col-md-5 d-flex align-items-center justify-content-center justify-content-md-start"></div>
                                             <div class="col-sm-12 col-md-7 d-flex align-items-center justify-content-center justify-content-md-end">
                                                 <div class="dataTables_paginate paging_simple_numbers" id="kt_table_users_paginate">
@@ -405,6 +405,32 @@
                                         </div>
                                     </div>
                                     <!--end::Table-->
+
+                                    <h2>Section Header</h2>
+                                    <hr />
+                                    <div class="mb-10">
+                                        <label for="exampleFormControlInput1" class="required form-label">Page Title</label>
+                                        <input type="email" class="form-control form-control-solid" placeholder="" />
+                                    </div>
+
+                                    <h2>Section Our Story</h2>
+                                    <hr />
+
+                                    <div class="mb-10">
+                                        <label for="exampleFormControlInput1" class="required form-label">Section Title</label>
+                                        <input type="email" class="form-control form-control-solid" placeholder="" />
+                                    </div>
+
+                                    <div class="mb-10">
+                                        <label for="exampleFormControlInput1" class="required form-label">Section Description</label>
+                                        <input type="email" class="form-control form-control-solid" placeholder="" />
+                                    </div>
+
+
+                                    <div class="mb-10">
+                                        <label for="exampleFormControlInput1" class="required form-label">Section Images</label>
+                                        <input type="file" class="form-control form-control-solid" placeholder="" />
+                                    </div>
                                 </div>
                                 <!--end::Card body-->
                             </div>
