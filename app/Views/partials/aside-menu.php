@@ -4,8 +4,8 @@
                     <div class="hover-scroll-overlay-y my-5 my-lg-5" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-activate="{default: false, lg: true}" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside_menu" data-kt-scroll-offset="0">
                         <!--begin::Menu-->
                         <div class="menu menu-column menu-title-gray-800 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500" id="#kt_aside_menu" data-kt-menu="true" data-kt-menu-expand="false">
-                            <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-                                <span class="menu-link">
+                            <div data-kt-menu-trigger="click" class="menu-item">
+                                <a href="<?= url_to('dashboard') ?>" class="menu-link">
                                     <span class="menu-icon">
                                         <!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
                                         <span class="svg-icon svg-icon-2">
@@ -18,11 +18,11 @@
                                         </span>
                                         <!--end::Svg Icon-->
                                     </span>
-                                    <a href="/admin/dashboard" class="menu-title">Dashboards</a>
-                                </span>
+                                    <span class="menu-title">Dashboards</span>
+                                </a>
                             </div>
-                            <div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
-                                <span class="menu-link">
+                            <div data-kt-menu-trigger="click" class="menu-item">
+                                <a href="#" class="menu-link">
                                     <span class="menu-icon">
                                         <!--begin::Svg Icon | path: icons/duotune/general/gen025.svg-->
                                         <span class="svg-icon svg-icon-2">
@@ -33,16 +33,16 @@
                                         </span>
                                         <!--end::Svg Icon-->
                                     </span>
-                                    <a target="_blank" href="#" class="menu-title">View Website</a>
-                                </span>
+                                    <span class="menu-title">View Website</span>
+                                </a>
                             </div>
                             <div class="menu-item">
                                 <div class="menu-content pt-8 pb-2">
                                     <span class="menu-section text-muted text-uppercase fs-8 ls-1">Pages</span>
                                 </div>
                             </div>
-                            <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                <span class="menu-link">
+                            <div class="menu-item menu-accordion">
+                                <a href="<?= url_to('about_page') ?>" class="menu-link">
                                     <span class="menu-icon">
                                         <!--begin::Svg Icon | path: icons/duotune/communication/com013.svg-->
                                         <span class="svg-icon svg-icon-2">
@@ -54,69 +54,10 @@
                                         <!--end::Svg Icon-->
                                     </span>
                                     <span class="menu-title">About Page</span>
-                                    <span class="menu-arrow"></span>
-                                </span>
-
-                                <div class="menu-sub menu-sub-accordion menu-active-bg">
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                        <span class="menu-link">
-                                            <span class="menu-bullet">
-                                                <span class="bullet bullet-dot"></span>
-                                            </span>
-                                            <span class="menu-title">Page Title</span>
-                                            <span class="menu-arrow"></span>
-                                        </span>
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Manage Page Title</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                        <span class="menu-link">
-                                            <span class="menu-bullet">
-                                                <span class="bullet bullet-dot"></span>
-                                            </span>
-                                            <span class="menu-title">Page Section</span>
-                                            <span class="menu-arrow"></span>
-                                        </span>
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 1</span>
-                                                </a>
-                                            </div>
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 2</span>
-                                                </a>
-                                            </div>
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 3</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                </a>
                             </div>
-                            <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                <span class="menu-link">
+                            <div class="menu-item">
+                                <a href="<?= url_to('wine_page') ?>" class="menu-link">
                                     <span class="menu-icon">
                                         <!--begin::Svg Icon | path: icons/duotune/communication/com013.svg-->
                                         <span class="svg-icon svg-icon-2">
@@ -127,66 +68,7 @@
                                         <!--end::Svg Icon-->
                                     </span>
                                     <span class="menu-title">Wine Page</span>
-                                    <span class="menu-arrow"></span>
-                                </span>
-
-                                <div class="menu-sub menu-sub-accordion menu-active-bg">
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                        <span class="menu-link">
-                                            <span class="menu-bullet">
-                                                <span class="bullet bullet-dot"></span>
-                                            </span>
-                                            <span class="menu-title">Page Title</span>
-                                            <span class="menu-arrow"></span>
-                                        </span>
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Manage Page Title</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                        <span class="menu-link">
-                                            <span class="menu-bullet">
-                                                <span class="bullet bullet-dot"></span>
-                                            </span>
-                                            <span class="menu-title">Page Section</span>
-                                            <span class="menu-arrow"></span>
-                                        </span>
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 1</span>
-                                                </a>
-                                            </div>
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 2</span>
-                                                </a>
-                                            </div>
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 3</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                </a>
                             </div>
                             <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                 <span class="menu-link">
@@ -206,25 +88,14 @@
                                     <span class="menu-arrow"></span>
                                 </span>
                                 <div class="menu-sub menu-sub-accordion">
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                                    <a href="<?= url_to('shop_page') ?>" class="menu-item">
                                         <span class="menu-link">
                                             <span class="menu-bullet">
                                                 <span class="bullet bullet-dot"></span>
                                             </span>
-                                            <span class="menu-title">Page Title</span>
-                                            <span class="menu-arrow"></span>
+                                            <span class="menu-title">Page Section</span>
                                         </span>
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Manage Page Title</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </a>
                                     <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                                         <span class="menu-link">
                                             <span class="menu-bullet">
@@ -235,7 +106,7 @@
                                         </span>
                                         <div class="menu-sub menu-sub-accordion">
                                             <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
+                                                <a href="<?= url_to('create_product') ?>" class="menu-link">
                                                     <span class="menu-bullet">
                                                         <span class="bullet bullet-dot"></span>
                                                     </span>
@@ -243,43 +114,16 @@
                                                 </a>
                                             </div>
                                             <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
+                                                <a href="<?= url_to('list_product') ?>" class="menu-link">
                                                     <span class="menu-bullet">
                                                         <span class="bullet bullet-dot"></span>
                                                     </span>
-                                                    <span class="menu-title">Update Product</span>
+                                                    <span class="menu-title">List Products</span>
                                                 </a>
                                             </div>
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Delete Product</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                                        <span class="menu-link">
-                                            <span class="menu-bullet">
-                                                <span class="bullet bullet-dot"></span>
-                                            </span>
-                                            <span class="menu-title">Page Section</span>
-                                            <span class="menu-arrow"></span>
-                                        </span>
-                                        <div class="menu-sub menu-sub-accordion">
-                                            <div class="menu-item">
-                                                <a class="menu-link" href="../../demo1/dist/apps/ecommerce/catalog/products.html">
-                                                    <span class="menu-bullet">
-                                                        <span class="bullet bullet-dot"></span>
-                                                    </span>
-                                                    <span class="menu-title">Section 3</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

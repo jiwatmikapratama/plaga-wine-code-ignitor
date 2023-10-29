@@ -4,14 +4,14 @@ namespace App\Controllers\Admin;
 
 use App\Controllers\BaseController;
 
-class AboutPage extends BaseController
+class ShopPage extends BaseController
 {
     public function index()
     {
         $data = array(
-            'title' => 'About Page',
+            'title' => 'Shop Page',
         );
 
-        return view('admin/aboutPage/manage-about-page', $data);
+        return view('admin/shopPage/manage-shop-page', $data);
     }
 }
